@@ -690,10 +690,10 @@ async def externalrepo():
        # await install_externalrepo(
            # Config.THANOSABUSE_REPO, Config.THANOSABUSE_REPOBRANCH, "badcatext"
         #)
-    if Config.VCMODE:
-        await install_externalrepo(
-            "https://github.com/thanosuser/THANOS-PRO", "test", "catvc"
-        )
+   # if Config.VCMODE:
+      #  await install_externalrepo(
+           # "https://github.com/thanosuser/THANOS-PRO", "test", "catvc"
+       # )
 
 
 THANOSPRO.loop.run_until_complete(startup_process())
